@@ -32,7 +32,7 @@ extension SubTitleSectionFirstPageExtension on SubTitleSectionFirstPage {
       case SubTitleSectionFirstPage.language:
         return 'Ukraine - native \nEnglish - A2';
       case SubTitleSectionFirstPage.contact:
-        return 'Phone:\n+38 (093) 618-72-11\nEmail:\nmadarash.dev@gmail.ua';
+        return 'Phone:\n+38 (093) 618-72-11\nEmail:\nmadarash.dev@gmail.ua\nGit: \nhttps://github.com/madarash/cv_trainee.git';
     }
   }
 }
@@ -90,11 +90,11 @@ extension TextItemSecondScreenExtension on TextItemSecondScreen {
       case TextItemSecondScreen.summary:
         return 'Good team player with strong self-motivation and good communication skills. I love learning new technologies and solving hard tasks.';
       case TextItemSecondScreen.history:
-        return '- event industry\n- own business';
+        return '- event organizer\n- art director\n- dj\n- own bussines: event technical support';
       case TextItemSecondScreen.education:
         return 'Lviv Polytechnic National University\n\n Bachelor\'s degree - 2012\n  - Highways and airfields\n Master\'s degree - 2013\n  - Highways and airfields';
       case TextItemSecondScreen.interests:
-        return '- Sport\n\n- Travel\n\n- Study\n\n - Cars';
+        return '- Sport: cycling\n\n- Love traveling a broad by car\n\n';
     }
   }
 }
