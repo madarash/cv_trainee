@@ -9,7 +9,7 @@ class SectionFirstPage extends StatelessWidget {
   static const EdgeInsets _paddingContainerSectionFirstPageTitle =
       EdgeInsets.only(left: 10, bottom: 15, top: 15);
   static const EdgeInsets _paddingContainerSectionFirstPageSubTitle =
-      EdgeInsets.only(left: 10, bottom: 25, top: 25);
+      EdgeInsets.only(left: 10, bottom: 15, top: 25);
   static const double _hieghtOfSpaceBetweenWidgets = 10;
 
   const SectionFirstPage(
