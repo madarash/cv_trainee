@@ -1,6 +1,7 @@
 import 'package:cv/exports/exports.dart';
 
 class FirstPage extends StatelessWidget {
+  static const double _sizedBoxHeight = 20;
   const FirstPage({
     Key? key,
   }) : super(key: key);
@@ -59,7 +60,8 @@ class FirstPage extends StatelessWidget {
                     route: RouteName.second.routeName,
                   ),
                 ],
-              )
+              ),
+              const SizedBox(height: _sizedBoxHeight),
             ],
           ),
         ),

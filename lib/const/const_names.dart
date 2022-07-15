@@ -26,7 +26,7 @@ extension SubTitleSectionFirstPageExtension on SubTitleSectionFirstPage {
   String get subTitleFirstPage {
     switch (this) {
       case SubTitleSectionFirstPage.primary:
-        return 'Dart, Flutter, OOP, SOLID, Git, Figma';
+        return 'Dart, Flutter, OOP, SOLID, Git, Figma, DRY, Bloc';
       case SubTitleSectionFirstPage.soft:
         return 'Communication, Teamwork, Creativity, Work ethic, Willingness to learn, Punctuality.';
       case SubTitleSectionFirstPage.language:
@@ -94,7 +94,7 @@ extension TextItemSecondScreenExtension on TextItemSecondScreen {
       case TextItemSecondScreen.education:
         return 'Lviv Polytechnic National University\n\n Bachelor\'s degree - 2012\n  - Highways and airfields\n Master\'s degree - 2013\n  - Highways and airfields';
       case TextItemSecondScreen.interests:
-        return '- Sport: cycling\n\n- Love traveling a broad by car\n\n';
+        return '- Sport: cycling\n\n- Hiking\n\n- Love traveling a broad by car\n\n';
     }
   }
 }
